@@ -1,6 +1,6 @@
 body{
     color:black;
-    background: beige;
+    background: rgb(141, 36, 29);
     margin: 0px;
     font-family: "Bungee Static", sans-serif;
 }
@@ -13,7 +13,7 @@ header{
 }
 
 section{
-    background: rgb(1, 212, 149);
+    background: rgb(245, 86, 86);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
