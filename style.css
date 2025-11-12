@@ -12,14 +12,30 @@ header{
     color: rgb(12, 12, 12);
 }
 
-section{
-    background: rgb(245, 86, 86);
+.chamada{
+    background: rgb(51, 66, 51);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
+
 }
 
 .chamada-texto{
     margin-right: 5%;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.categoria-video{
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left:20px;
+    padding-right: 20px;
 }
