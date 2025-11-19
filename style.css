@@ -3,6 +3,7 @@ body{
     background: rgb(141, 36, 29);
     margin: 0px;
     font-family: "Bungee Static", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
@@ -30,9 +31,7 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height:200px;
-}
+
 .categoria-video{
     display:flex;
     overflow-x: auto;
@@ -41,4 +40,19 @@ img{
 .categoria{
     padding-left:20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 0.1;
+    border: 1px solid #ff2e2e
+}
+
+.categoria h2{
+    color:white;
 }
